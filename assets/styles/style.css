@@ -1,0 +1,826 @@
+/* line 1, style.scss */
+[id^="spin_game_gh_"] {
+  position: relative;
+  overflow: hidden;
+  padding-top: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+/* line 7, style.scss */
+[id^="spin_game_gh_"] .center {
+  text-align: center;
+  width: 100%;
+}
+/* line 11, style.scss */
+[id^="spin_game_gh_"] input[type="button"] {
+  cursor: pointer;
+}
+/* line 14, style.scss */
+[id^="spin_game_gh_"] .spin_result {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  opacity: 1;
+  z-index: 999;
+  -webkit-transform: translate(0, 0);
+     -moz-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+       -o-transform: translate(0, 0);
+          transform: translate(0, 0);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  -o-transition: -o-transform 0.5s;
+  -moz-transition: transform 0.5s, -moz-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s, -moz-transform 0.5s, -o-transform 0.5s;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+/* line 26, style.scss */
+[id^="spin_game_gh_"] .spin_result.leave {
+  opacity: 0;
+  -webkit-transform: translate(0, -110%);
+     -moz-transform: translate(0, -110%);
+      -ms-transform: translate(0, -110%);
+       -o-transform: translate(0, -110%);
+          transform: translate(0, -110%);
+}
+/* line 32, style.scss */
+[id^="spin_game_gh_"] .gh_spin_form h2 {
+  color: white;
+  font-size: 17px;
+  text-shadow: 2px 2px 2px black;
+  margin-top: 2em;
+}
+/* line 38, style.scss */
+[id^="spin_game_gh_"] .gh_spin_form label {
+  line-height: 1.5;
+}
+/* line 40, style.scss */
+[id^="spin_game_gh_"] .gh_spin_form label input {
+  width: 90%;
+  margin: 1%;
+  height: 30px;
+  padding: 5px;
+  text-align: center;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid transparent;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* line 50, style.scss */
+[id^="spin_game_gh_"] .gh_spin_form label input.error {
+  border-color: #f44336;
+}
+/* line 56, style.scss */
+[id^="spin_game_gh_"] .spin_overlay .buttons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/* line 59, style.scss */
+[id^="spin_game_gh_"] .spin_overlay input[type=button] {
+  color: white;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  border: none;
+  font-size: 22px;
+  -webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5) inset;
+     -moz-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5) inset;
+          box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5) inset;
+  line-height: 1em;
+  -webkit-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  margin: 20px 10px;
+  padding: 14px 35px;
+}
+/* line 69, style.scss */
+[id^="spin_game_gh_"] .spin_overlay input[type=button]:hover {
+  opacity: 0.9;
+}
+/* line 73, style.scss */
+[id^="spin_game_gh_"] .gh_spin_form form {
+  max-width: 400px;
+  margin: auto;
+}
+/* line 77, style.scss */
+[id^="spin_game_gh_"] .spin_overlay {
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  overflow: hidden;
+}
+/* line 85, style.scss */
+[id^="spin_game_gh_"] .gh_spin_form {
+  -webkit-box-shadow: 3px 0 10px 0 #3a3a3a;
+     -moz-box-shadow: 3px 0 10px 0 #3a3a3a;
+          box-shadow: 3px 0 10px 0 #3a3a3a;
+  padding: 10px;
+  height: 100%;
+  width: 65%;
+  max-width: 800px;
+  min-width: 300px;
+  -webkit-animation-duration: 0.8s;
+     -moz-animation-duration: 0.8s;
+       -o-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  -webkit-transform: translate(0);
+     -moz-transform: translate(0);
+      -ms-transform: translate(0);
+       -o-transform: translate(0);
+          transform: translate(0);
+  -webkit-animation-name: el-show;
+     -moz-animation-name: el-show;
+       -o-animation-name: el-show;
+          animation-name: el-show;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/* line 98, style.scss */
+[id^="spin_game_gh_"] .gh_spin_form.leave {
+  -webkit-transform: translate(-105%);
+     -moz-transform: translate(-105%);
+      -ms-transform: translate(-105%);
+       -o-transform: translate(-105%);
+          transform: translate(-105%);
+  -webkit-animation-name: el-hide;
+     -moz-animation-name: el-hide;
+       -o-animation-name: el-hide;
+          animation-name: el-hide;
+}
+/* line 102, style.scss */
+[id^="spin_game_gh_"] .gh_spin_form label {
+  position: relative;
+  display: block;
+  margin-top: 25px;
+}
+/* line 107, style.scss */
+[id^="spin_game_gh_"] .gh_spin_form .placeholder {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+  pointer-events: none;
+}
+/* line 116, style.scss */
+[id^="spin_game_gh_"] .gh_spin_form input:focus + .placeholder, [id^="spin_game_gh_"] .gh_spin_form input:not(:placeholder-shown) + .placeholder {
+  -webkit-transform: translate(-50%, -150%) scale(0.9);
+     -moz-transform: translate(-50%, -150%) scale(0.9);
+      -ms-transform: translate(-50%, -150%) scale(0.9);
+       -o-transform: translate(-50%, -150%) scale(0.9);
+          transform: translate(-50%, -150%) scale(0.9);
+  color: #fff;
+  text-shadow: 1px 1px 1px black;
+}
+/* line 122, style.scss */
+[id^="spin_game_gh_"] .gh_spin_form .welcome_message {
+  margin-bottom: 20px;
+}
+/* line 124, style.scss */
+[id^="spin_game_gh_"] .gh_spin_form .welcome_message > * {
+  color: #fff;
+  text-shadow: 0 1px 1px #fff;
+  margin-bottom: 0;
+}
+/* line 132, style.scss */
+[id^="spin_game_gh_"] .spin_overlay .bg, [id^="spin_game_gh_"] .spin_overlay .bg_image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  -moz-background-size: cover;
+       background-size: cover;
+  background-repeat: no-repeat;
+}
+/* line 143, style.scss */
+[id^="spin_game_gh_"] .gh_spin_form .error_message {
+  width: 100%;
+  position: absolute;
+  color: #F44336;
+  left: 0;
+  text-align: center;
+  bottom: -16px;
+  font-size: 14px;
+}
+/* line 152, style.scss */
+[id^="spin_game_gh_"] .spin_result {
+  padding: 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/* line 158, style.scss */
+[id^="spin_game_gh_"] .spin_result .image_wrapper {
+  position: relative;
+}
+/* line 160, style.scss */
+[id^="spin_game_gh_"] .spin_result .image_wrapper img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 150px;
+  min-height: 150px;
+  max-height: 150px;
+  width: 150px;
+  min-width: 150px;
+  max-width: 150px;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  background-color: #fff;
+}
+/* line 173, style.scss */
+[id^="spin_game_gh_"] .spin_result .image_wrapper .success {
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 2;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  transition: all 0.8s;
+}
+/* line 181, style.scss */
+[id^="spin_game_gh_"] .spin_result .image_wrapper .success.leave {
+  opacity: 0;
+  -webkit-transform: rotate(0);
+     -moz-transform: rotate(0);
+      -ms-transform: rotate(0);
+       -o-transform: rotate(0);
+          transform: rotate(0);
+}
+/* line 186, style.scss */
+[id^="spin_game_gh_"] .spin_result .message_area {
+  margin-top: 15px;
+  padding: 15px 20px 15px;
+  overflow-y: auto;
+  color: #fff;
+  text-shadow: 2px 2px 2px black;
+  margin-right: -5px;
+}
+/* line 193, style.scss */
+[id^="spin_game_gh_"] .spin_result .message_area a {
+  color: #fff;
+  border-bottom: 1px dashed #fff;
+}
+
+@-webkit-keyframes el-show {
+  from {
+    -webkit-transform: translate(-105%);
+            transform: translate(-105%);
+  }
+  to {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+@-moz-keyframes el-show {
+  from {
+    -moz-transform: translate(-105%);
+         transform: translate(-105%);
+  }
+  to {
+    -moz-transform: translate(0);
+         transform: translate(0);
+  }
+}
+
+@-o-keyframes el-show {
+  from {
+    -o-transform: translate(-105%);
+       transform: translate(-105%);
+  }
+  to {
+    -o-transform: translate(0);
+       transform: translate(0);
+  }
+}
+
+@keyframes el-show {
+  from {
+    -webkit-transform: translate(-105%);
+       -moz-transform: translate(-105%);
+         -o-transform: translate(-105%);
+            transform: translate(-105%);
+  }
+  to {
+    -webkit-transform: translate(0);
+       -moz-transform: translate(0);
+         -o-transform: translate(0);
+            transform: translate(0);
+  }
+}
+@-webkit-keyframes el-hide {
+  from {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  to {
+    -webkit-transform: translate(-105%);
+            transform: translate(-105%);
+  }
+}
+@-moz-keyframes el-hide {
+  from {
+    -moz-transform: translate(0);
+         transform: translate(0);
+  }
+  to {
+    -moz-transform: translate(-105%);
+         transform: translate(-105%);
+  }
+}
+@-o-keyframes el-hide {
+  from {
+    -o-transform: translate(0);
+       transform: translate(0);
+  }
+  to {
+    -o-transform: translate(-105%);
+       transform: translate(-105%);
+  }
+}
+@keyframes el-hide {
+  from {
+    -webkit-transform: translate(0);
+       -moz-transform: translate(0);
+         -o-transform: translate(0);
+            transform: translate(0);
+  }
+  to {
+    -webkit-transform: translate(-105%);
+       -moz-transform: translate(-105%);
+         -o-transform: translate(-105%);
+            transform: translate(-105%);
+  }
+}
+/* line 221, style.scss */
+#spin_global_popup {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 99999;
+}
+/* line 229, style.scss */
+#spin_global_popup [id^="spin_game_gh_"] {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/* line 234, style.scss */
+#spin_global_popup [id^="spin_game_gh_"]:not(.template_2) .spinwheel {
+  -webkit-animation-name: whell-show;
+     -moz-animation-name: whell-show;
+       -o-animation-name: whell-show;
+          animation-name: whell-show;
+  -webkit-animation-duration: 0.8s;
+     -moz-animation-duration: 0.8s;
+       -o-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  -webkit-animation-delay: 0.8s;
+     -moz-animation-delay: 0.8s;
+       -o-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+  -webkit-transform: translate(-110%);
+     -moz-transform: translate(-110%);
+      -ms-transform: translate(-110%);
+       -o-transform: translate(-110%);
+          transform: translate(-110%);
+  -webkit-animation-fill-mode: both;
+     -moz-animation-fill-mode: both;
+       -o-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+/* line 242, style.scss */
+#spin_global_popup #spin_close_global {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  cursor: pointer;
+  z-index: 99999;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* line 249, style.scss */
+#spin_global_popup #spin_close_global:hover {
+  -webkit-transform: rotate(-180deg);
+     -moz-transform: rotate(-180deg);
+      -ms-transform: rotate(-180deg);
+       -o-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
+@-webkit-keyframes whell-show {
+  from {
+    -webkit-transform: translate(-110%);
+            transform: translate(-110%);
+  }
+  to {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+@-moz-keyframes whell-show {
+  from {
+    -moz-transform: translate(-110%);
+         transform: translate(-110%);
+  }
+  to {
+    -moz-transform: translate(0);
+         transform: translate(0);
+  }
+}
+
+@-o-keyframes whell-show {
+  from {
+    -o-transform: translate(-110%);
+       transform: translate(-110%);
+  }
+  to {
+    -o-transform: translate(0);
+       transform: translate(0);
+  }
+}
+
+@keyframes whell-show {
+  from {
+    -webkit-transform: translate(-110%);
+       -moz-transform: translate(-110%);
+         -o-transform: translate(-110%);
+            transform: translate(-110%);
+  }
+  to {
+    -webkit-transform: translate(0);
+       -moz-transform: translate(0);
+         -o-transform: translate(0);
+            transform: translate(0);
+  }
+}
+/* line 265, style.scss */
+#spin_open_global {
+  position: fixed;
+  z-index: 9999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+/* line 271, style.scss */
+#spin_open_global .open {
+  cursor: pointer;
+}
+/* line 274, style.scss */
+#spin_open_global .text {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background: #fff;
+  color: #444;
+  border: 1px solid #9E9E9E;
+  -webkit-box-shadow: -1px 1px 6px #9E9E9E;
+     -moz-box-shadow: -1px 1px 6px #9E9E9E;
+          box-shadow: -1px 1px 6px #9E9E9E;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  font-size: 15px;
+  padding: 15px;
+  line-height: 0;
+  margin: 0 5px;
+  -webkit-animation-name: open-spin-text-right;
+     -moz-animation-name: open-spin-text-right;
+       -o-animation-name: open-spin-text-right;
+          animation-name: open-spin-text-right;
+  -webkit-animation-duration: 1.5s;
+     -moz-animation-duration: 1.5s;
+       -o-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+     -moz-animation-direction: alternate;
+       -o-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+  position: relative;
+}
+/* line 291, style.scss */
+#spin_open_global .text:after, #spin_open_global .text:before {
+  content: '';
+  display: inline-block;
+  border: 9px solid transparent;
+  border-left-color: #9E9E9E;
+  right: -18px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+     -moz-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+       -o-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+/* line 301, style.scss */
+#spin_open_global .text:before {
+  right: -17px;
+  border-left-color: #fff;
+  z-index: 1;
+}
+/* line 308, style.scss */
+#spin_open_global.left {
+  left: 15px;
+}
+/* line 310, style.scss */
+#spin_open_global.left .text {
+  -webkit-box-ordinal-group: 3;
+  -webkit-order: 2;
+     -moz-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  -webkit-animation-name: open-spin-text-left;
+     -moz-animation-name: open-spin-text-left;
+       -o-animation-name: open-spin-text-left;
+          animation-name: open-spin-text-left;
+}
+/* line 313, style.scss */
+#spin_open_global.left .text:after, #spin_open_global.left .text:before {
+  border-left-color: transparent;
+  border-right-color: #9E9E9E;
+  right: unset;
+  left: -18px;
+}
+/* line 319, style.scss */
+#spin_open_global.left .text:before {
+  right: unset;
+  left: -17px;
+  border-left-color: transparent;
+  border-right-color: #fff;
+}
+/* line 326, style.scss */
+#spin_open_global.left .open {
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+     -moz-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+/* line 328, style.scss */
+#spin_open_global.left .open .spin_border {
+  left: 0;
+  right: unset;
+}
+/* line 334, style.scss */
+#spin_open_global.right {
+  right: 15px;
+}
+/* line 338, style.scss */
+#spin_open_global.bottom {
+  bottom: 20px;
+}
+/* line 341, style.scss */
+#spin_open_global.top {
+  top: 20px;
+}
+/* line 345, style.scss */
+#spin_open_global .spin_border {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/* line 350, style.scss */
+#spin_open_global .spin {
+  -webkit-animation-name: open-spin-rotate;
+     -moz-animation-name: open-spin-rotate;
+       -o-animation-name: open-spin-rotate;
+          animation-name: open-spin-rotate;
+  -webkit-animation-duration: 15s;
+     -moz-animation-duration: 15s;
+       -o-animation-duration: 15s;
+          animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+  padding: 1px;
+}
+@media screen and (max-width: 768px) {
+  /* line 358, style.scss */
+  #spin_open_global .text {
+    font-size: 16px;
+  }
+  /* line 362, style.scss */
+  #spin_open_global .open img {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@-webkit-keyframes open-spin-rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes open-spin-rotate {
+  from {
+    -moz-transform: rotate(0deg);
+         transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+         transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes open-spin-rotate {
+  from {
+    -o-transform: rotate(0deg);
+       transform: rotate(0deg);
+  }
+  to {
+    -o-transform: rotate(360deg);
+       transform: rotate(360deg);
+  }
+}
+
+@keyframes open-spin-rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+       -moz-transform: rotate(0deg);
+         -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes open-spin-text-right {
+  from {
+    right: 0;
+  }
+  to {
+    right: 25px;
+  }
+}
+@-moz-keyframes open-spin-text-right {
+  from {
+    right: 0;
+  }
+  to {
+    right: 25px;
+  }
+}
+@-o-keyframes open-spin-text-right {
+  from {
+    right: 0;
+  }
+  to {
+    right: 25px;
+  }
+}
+@keyframes open-spin-text-right {
+  from {
+    right: 0;
+  }
+  to {
+    right: 25px;
+  }
+}
+@-webkit-keyframes open-spin-text-left {
+  from {
+    left: 0;
+  }
+  to {
+    left: 25px;
+  }
+}
+@-moz-keyframes open-spin-text-left {
+  from {
+    left: 0;
+  }
+  to {
+    left: 25px;
+  }
+}
+@-o-keyframes open-spin-text-left {
+  from {
+    left: 0;
+  }
+  to {
+    left: 25px;
+  }
+}
+@keyframes open-spin-text-left {
+  from {
+    left: 0;
+  }
+  to {
+    left: 25px;
+  }
+}

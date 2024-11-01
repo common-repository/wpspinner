@@ -1,0 +1,618 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-27 08:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: includes/SpinAdminGh.php:44
+msgid "For full functionality please install WooCommerce plugin."
+msgstr ""
+
+#: includes/SpinAdminGh.php:58 includes/SpinAdminGh.php:893
+msgid "Permission denied!"
+msgstr ""
+
+#: includes/SpinAdminGh.php:64 includes/SpinAdminGh.php:108
+msgid "Spin Members"
+msgstr ""
+
+#: includes/SpinAdminGh.php:67
+msgid "Settings"
+msgstr ""
+
+#: includes/SpinAdminGh.php:79 includes/SpinMembersGh.php:73
+#: includes/SpinPostTypeGh.php:266
+msgid "Spin"
+msgstr ""
+
+#: includes/SpinAdminGh.php:82
+msgid "Items"
+msgstr ""
+
+#: includes/SpinAdminGh.php:85
+msgid "Options"
+msgstr ""
+
+#: includes/SpinAdminGh.php:88
+msgid "Form Options"
+msgstr ""
+
+#: includes/SpinAdminGh.php:91
+msgid "Spin Result"
+msgstr ""
+
+#: includes/SpinAdminGh.php:94
+msgid "Email template"
+msgstr ""
+
+#: includes/SpinAdminGh.php:97
+msgid "Sounds"
+msgstr ""
+
+#: includes/SpinAdminGh.php:135
+msgid "Spinner Settings"
+msgstr ""
+
+#: includes/SpinAdminGh.php:140
+msgid "Spinner Global Settings"
+msgstr ""
+
+#: includes/SpinAdminGh.php:145
+msgid "Enables Spin in all the pages"
+msgstr ""
+
+#: includes/SpinAdminGh.php:155
+msgid "Show spin popup button"
+msgstr ""
+
+#: includes/SpinAdminGh.php:171
+msgid "(no title)"
+msgstr ""
+
+#: includes/SpinAdminGh.php:183
+msgid "Exclude post IDs"
+msgstr ""
+
+#: includes/SpinAdminGh.php:197
+msgid "Save"
+msgstr ""
+
+#: includes/SpinAdminGh.php:241
+msgid "Win Text"
+msgstr ""
+
+#: includes/SpinAdminGh.php:242
+msgid "Available Spins Count"
+msgstr ""
+
+#: includes/SpinAdminGh.php:243
+msgid "User Spins Count"
+msgstr ""
+
+#: includes/SpinAdminGh.php:244
+msgid "User Name"
+msgstr ""
+
+#: includes/SpinAdminGh.php:245
+msgid "User Email"
+msgstr ""
+
+#: includes/SpinAdminGh.php:246
+msgid "Try Again After Expire Time"
+msgstr ""
+
+#: includes/SpinAdminGh.php:247
+msgid "Insert ShortCode"
+msgstr ""
+
+#: includes/SpinAdminGh.php:290
+msgid "Item"
+msgstr ""
+
+#: includes/SpinAdminGh.php:294 includes/SpinAdminGh.php:700
+msgid "Prize Type"
+msgstr ""
+
+#: includes/SpinAdminGh.php:301 includes/SpinAdminGh.php:706
+msgid "Product"
+msgstr ""
+
+#: includes/SpinAdminGh.php:304 includes/SpinAdminGh.php:709
+msgid "Coupon"
+msgstr ""
+
+#: includes/SpinAdminGh.php:305 includes/SpinAdminGh.php:588
+#: includes/SpinAdminGh.php:710 includes/SpinAdminGh.php:1078
+#: includes/DuplicateSpinGh.php:12 includes/SpinMembersGh.php:101
+#: includes/SpinMembersGh.php:102 includes/SpinMembersGh.php:103
+#: includes/SpinMembersGh.php:104 includes/SpinMembersGh.php:105
+msgid " (PRO)"
+msgstr ""
+
+#: includes/SpinAdminGh.php:308 includes/SpinAdminGh.php:713
+msgid "Custom"
+msgstr ""
+
+#: includes/SpinAdminGh.php:311 includes/SpinAdminGh.php:716
+#: includes/SpinMembersGh.php:35
+msgid "No Prize"
+msgstr ""
+
+#: includes/SpinAdminGh.php:318
+msgid "Products"
+msgstr ""
+
+#: includes/SpinAdminGh.php:326 includes/SpinAdminGh.php:722
+msgid "Display"
+msgstr ""
+
+#: includes/SpinAdminGh.php:330 includes/SpinAdminGh.php:727
+msgid "Text"
+msgstr ""
+
+#: includes/SpinAdminGh.php:333 includes/SpinAdminGh.php:358
+#: includes/SpinAdminGh.php:730
+msgid "Image"
+msgstr ""
+
+#: includes/SpinAdminGh.php:336 includes/SpinAdminGh.php:733
+msgid "Image And Name"
+msgstr ""
+
+#: includes/SpinAdminGh.php:342 includes/SpinFrontGh.php:274
+#: includes/SpinMembersGh.php:75
+msgid "Name"
+msgstr ""
+
+#: includes/SpinAdminGh.php:347
+msgid "Color"
+msgstr ""
+
+#: includes/SpinAdminGh.php:353
+msgid "Priority"
+msgstr ""
+
+#: includes/SpinAdminGh.php:405 includes/SpinAdminGh.php:475
+msgid "Background Color"
+msgstr ""
+
+#: includes/SpinAdminGh.php:410 includes/SpinAdminGh.php:432
+#: includes/SpinAdminGh.php:480 includes/SpinAdminGh.php:502
+msgid "Visibility"
+msgstr ""
+
+#: includes/SpinAdminGh.php:418 includes/SpinAdminGh.php:488
+msgid "Background Image"
+msgstr ""
+
+#: includes/SpinAdminGh.php:439
+msgid "Play Button Color"
+msgstr ""
+
+#: includes/SpinAdminGh.php:450
+msgid "Welcome Text"
+msgstr ""
+
+#: includes/SpinAdminGh.php:509
+msgid "Claim Button Color"
+msgstr ""
+
+#: includes/SpinAdminGh.php:516
+msgid "Retry Button Color"
+msgstr ""
+
+#: includes/SpinAdminGh.php:526
+msgid "Win Message"
+msgstr ""
+
+#: includes/SpinAdminGh.php:535
+msgid "Lose Message"
+msgstr ""
+
+#: includes/SpinAdminGh.php:544
+msgid "Max Try Message"
+msgstr ""
+
+#: includes/SpinAdminGh.php:553
+msgid "Claimed Message"
+msgstr ""
+
+#: includes/SpinAdminGh.php:574
+msgid "Template"
+msgstr ""
+
+#: includes/SpinAdminGh.php:578
+msgid "Template 1"
+msgstr ""
+
+#: includes/SpinAdminGh.php:581
+msgid "Template 2"
+msgstr ""
+
+#: includes/SpinAdminGh.php:584
+msgid "Template 3"
+msgstr ""
+
+#: includes/SpinAdminGh.php:587
+msgid "Template 4"
+msgstr ""
+
+#: includes/SpinAdminGh.php:593
+msgid "Items Count"
+msgstr ""
+
+#: includes/SpinAdminGh.php:599
+msgid "Size"
+msgstr ""
+
+#: includes/SpinAdminGh.php:605
+msgid "Font Size"
+msgstr ""
+
+#: includes/SpinAdminGh.php:611
+msgid "Text Position"
+msgstr ""
+
+#: includes/SpinAdminGh.php:616
+msgid "Border"
+msgstr ""
+
+#: includes/SpinAdminGh.php:624
+msgid "Image Size"
+msgstr ""
+
+#: includes/SpinAdminGh.php:631
+msgid "Images Position"
+msgstr ""
+
+#: includes/SpinAdminGh.php:644
+msgid "Duration (ms)"
+msgstr ""
+
+#: includes/SpinAdminGh.php:648
+msgid "Rotate"
+msgstr ""
+
+#: includes/SpinAdminGh.php:666
+msgid "Max Spin Count"
+msgstr ""
+
+#: includes/SpinAdminGh.php:671
+msgid "Spins per period"
+msgstr ""
+
+#: includes/SpinAdminGh.php:681
+msgid "Day"
+msgstr ""
+
+#: includes/SpinAdminGh.php:684
+msgid "Weeks"
+msgstr ""
+
+#: includes/SpinAdminGh.php:687
+msgid "Years"
+msgstr ""
+
+#: includes/SpinAdminGh.php:696
+msgid "Bulk action"
+msgstr ""
+
+#: includes/SpinAdminGh.php:742
+msgid "Spin Relation"
+msgstr ""
+
+#: includes/SpinAdminGh.php:744
+msgid "Show spin in posts"
+msgstr ""
+
+#: includes/SpinAdminGh.php:750
+msgid "Button position"
+msgstr ""
+
+#: includes/SpinAdminGh.php:754
+msgid "Top and Left"
+msgstr ""
+
+#: includes/SpinAdminGh.php:757
+msgid "Top and Right"
+msgstr ""
+
+#: includes/SpinAdminGh.php:760
+msgid "Bottom and Left"
+msgstr ""
+
+#: includes/SpinAdminGh.php:763
+msgid "Bottom and Right"
+msgstr ""
+
+#: includes/SpinAdminGh.php:768
+msgid "Button Text"
+msgstr ""
+
+#: includes/SpinAdminGh.php:772
+msgid "Auto open timeout (ms)"
+msgstr ""
+
+#: includes/SpinAdminGh.php:789
+msgid "Win Email"
+msgstr ""
+
+#: includes/SpinAdminGh.php:791 includes/SpinAdminGh.php:808
+msgid "Subject"
+msgstr ""
+
+#: includes/SpinAdminGh.php:796 includes/SpinAdminGh.php:813
+msgid "Message"
+msgstr ""
+
+#: includes/SpinAdminGh.php:806
+msgid "Lose Email"
+msgstr ""
+
+#: includes/SpinAdminGh.php:898
+msgid "Nonce verify error, please try again"
+msgstr ""
+
+#: includes/SpinAdminGh.php:914
+msgid "Settings saved"
+msgstr ""
+
+#: includes/SpinAdminGh.php:922
+msgid "Related Posts"
+msgstr ""
+
+#: includes/SpinAdminGh.php:923
+msgid "ShortCode"
+msgstr ""
+
+#: includes/SpinAdminGh.php:1077
+msgid "Enable Sounds"
+msgstr ""
+
+#: includes/SpinAdminGh.php:1088
+msgid "music"
+msgstr ""
+
+#: includes/SpinFrontGh.php:34
+msgid "Your name is required"
+msgstr ""
+
+#: includes/SpinFrontGh.php:35
+msgid "Your email is required"
+msgstr ""
+
+#: includes/SpinFrontGh.php:36
+msgid "Not a valid email"
+msgstr ""
+
+#: includes/SpinFrontGh.php:84
+msgid "Something Went Wrong!"
+msgstr ""
+
+#: includes/SpinFrontGh.php:90
+msgid "Nonce Error "
+msgstr ""
+
+#: includes/SpinFrontGh.php:135 includes/SpinFrontGh.php:140
+#: includes/SpinFrontGh.php:145
+msgid "Something went wrong"
+msgstr ""
+
+#: includes/SpinFrontGh.php:279
+msgid "E-mail"
+msgstr ""
+
+#: includes/SpinFrontGh.php:282
+msgid "Play!"
+msgstr ""
+
+#: includes/SpinFrontGh.php:310
+msgid "CLAIM"
+msgstr ""
+
+#: includes/SpinFrontGh.php:312
+msgid "Try again"
+msgstr ""
+
+#: includes/DuplicateSpinGh.php:12
+msgid "Duplicate this item"
+msgstr ""
+
+#: includes/DuplicateSpinGh.php:12
+msgid "Duplicate"
+msgstr ""
+
+#: includes/SpinDbGh.php:220
+msgid "year"
+msgid_plural "years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/SpinDbGh.php:223
+msgid "month"
+msgid_plural "months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/SpinDbGh.php:226
+msgid "day"
+msgid_plural "days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/SpinDbGh.php:228
+msgid "hr."
+msgstr ""
+
+#: includes/SpinDbGh.php:229
+msgid "min."
+msgstr ""
+
+#: includes/SpinDbGh.php:230
+msgid "sec."
+msgstr ""
+
+#: includes/SpinDbGh.php:232
+msgid "sec"
+msgstr ""
+
+#: includes/SpinMembersGh.php:54
+msgid "Yes"
+msgstr ""
+
+#: includes/SpinMembersGh.php:57
+msgid "No"
+msgstr ""
+
+#: includes/SpinMembersGh.php:72
+msgid "ID"
+msgstr ""
+
+#: includes/SpinMembersGh.php:74
+msgid "E-Mail"
+msgstr ""
+
+#: includes/SpinMembersGh.php:76
+msgid "Win"
+msgstr ""
+
+#: includes/SpinMembersGh.php:77
+msgid "Date"
+msgstr ""
+
+#: includes/SpinMembersGh.php:78
+msgid "Spins Count"
+msgstr ""
+
+#: includes/SpinMembersGh.php:79
+msgid "Claimed"
+msgstr ""
+
+#: includes/SpinMembersGh.php:101
+msgid "Export CSV"
+msgstr ""
+
+#: includes/SpinMembersGh.php:102
+msgid "Send to Mailchimp"
+msgstr ""
+
+#: includes/SpinMembersGh.php:103
+msgid "Send to Zapier"
+msgstr ""
+
+#: includes/SpinMembersGh.php:104
+msgid "Send to Remarkety"
+msgstr ""
+
+#: includes/SpinMembersGh.php:105
+msgid "Send to ActiveCampaign"
+msgstr ""
+
+#: includes/SpinMembersGh.php:106
+msgid "Delete"
+msgstr ""
+
+#: includes/SpinMembersGh.php:131
+msgid "No Members selected"
+msgstr ""
+
+#: includes/SpinMembersGh.php:137
+msgid "Members deleted"
+msgstr ""
+
+#: includes/SpinMembersGh.php:139
+msgid "Only available in \"PRO\" version"
+msgstr ""
+
+#. Name of the plugin
+#: includes/SpinPostTypeGh.php:21 includes/SpinPostTypeGh.php:22
+msgid "WpSpinner"
+msgstr ""
+
+#: includes/SpinPostTypeGh.php:23
+msgctxt "admin menu"
+msgid "WpSpinner"
+msgstr ""
+
+#: includes/SpinPostTypeGh.php:24
+msgctxt "add new on admin bar"
+msgid "Spinner"
+msgstr ""
+
+#: includes/SpinPostTypeGh.php:25
+msgctxt "Spin"
+msgid "New Spinner"
+msgstr ""
+
+#: includes/SpinPostTypeGh.php:26
+msgid "Add New"
+msgstr ""
+
+#: includes/SpinPostTypeGh.php:27
+msgid "New Spinner"
+msgstr ""
+
+#: includes/SpinPostTypeGh.php:28
+msgid "Edit Spinner"
+msgstr ""
+
+#: includes/SpinPostTypeGh.php:29
+msgid "View Spinner"
+msgstr ""
+
+#: includes/SpinPostTypeGh.php:30
+msgid "All Spinners"
+msgstr ""
+
+#: includes/SpinPostTypeGh.php:31
+msgid "No Spinners found."
+msgstr ""
+
+#: includes/SpinPostTypeGh.php:32
+msgid "No Spinners found in Trash."
+msgstr ""
+
+#: includes/SpinPostTypeGh.php:163
+msgid ""
+"Congratulations! You won the [win] . Click on the Claim button and enjoy "
+"your prize."
+msgstr ""
+
+#: includes/SpinPostTypeGh.php:164
+msgid ""
+"I'm sorry but you have missed your chance, try again next time and probably "
+"you will win"
+msgstr ""
+
+#: includes/SpinPostTypeGh.php:165
+msgid "You have [user_spins_count] more times  left to try your luck."
+msgstr ""
+
+#: includes/SpinPostTypeGh.php:166
+msgid "Congratulations, you have selected [win] prize!"
+msgstr ""
+
+#: includes/SpinPostTypeGh.php:191
+msgid "Try your luck"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.wp-spinner.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "gHost Services"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://ghost-services.com"
+msgstr ""

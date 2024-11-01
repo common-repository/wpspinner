@@ -1,0 +1,1083 @@
+/* line 1, admin-style.scss */
+body.post-type-spin_game_gh {
+  min-width: 768px;
+}
+
+/* line 5, admin-style.scss */
+.error {
+  color: #F44336;
+}
+
+/* line 9, admin-style.scss */
+.success {
+  color: #4CAF50;
+}
+
+/* line 13, admin-style.scss */
+#post-body-content {
+  margin-bottom: 0;
+}
+
+/* line 18, admin-style.scss */
+#spin_items_wrapper .item_row {
+  border-bottom: 1px solid #ccc;
+}
+/* line 21, admin-style.scss */
+#spin_items_wrapper h4 {
+  margin: 0;
+}
+
+/* line 26, admin-style.scss */
+.btn-red-gh {
+  background-color: #F44336 !important;
+}
+
+/* line 30, admin-style.scss */
+.btn-green-gh {
+  background-color: #4CAF50 !important;
+}
+
+/* line 34, admin-style.scss */
+.btn-blue-gh {
+  background-color: #2196F3 !important;
+}
+
+/* line 38, admin-style.scss */
+.btn-orange-gh {
+  background-color: #ff9800 !important;
+}
+
+/* line 42, admin-style.scss */
+.buttons .dashicons {
+  color: #fff;
+}
+
+/* line 46, admin-style.scss */
+#post-body #normal-sortables {
+  min-height: 0;
+}
+
+/* line 50, admin-style.scss */
+#spin_game_preview {
+  overflow: hidden !important;
+}
+
+/* line 54, admin-style.scss */
+.border_option {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+     -moz-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+}
+/* line 58, admin-style.scss */
+.border_option .label {
+  width: 80%;
+}
+/* line 61, admin-style.scss */
+.border_option [name="border_size"] {
+  width: 60px;
+  margin: 0 0 0 8px;
+}
+
+/* line 68, admin-style.scss */
+#spin_items_wrapper .image_upload_wrapper {
+  position: relative;
+}
+/* line 71, admin-style.scss */
+#spin_items_wrapper .imgButtonsWrapper {
+  position: absolute;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  left: 0;
+}
+/* line 78, admin-style.scss */
+#spin_items_wrapper .spin-image-wrapper img {
+  height: 100px;
+  width: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/* line 83, admin-style.scss */
+#spin_items_wrapper .opt {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+/* line 86, admin-style.scss */
+#spin_items_wrapper .opt > div {
+  width: 33%;
+  min-width: 33%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 3px 10px;
+}
+/* line 92, admin-style.scss */
+#spin_items_wrapper .opt .gh_image {
+  width: 100%;
+}
+/* line 94, admin-style.scss */
+#spin_items_wrapper .opt .gh_image .image_wrapper {
+  -moz-background-size: cover;
+       background-size: cover;
+  background-position: center;
+  background-image: url("../images/no-image.png");
+}
+/* line 100, admin-style.scss */
+#spin_items_wrapper .opt select, #spin_items_wrapper .opt input {
+  width: 100%;
+}
+
+/**/
+/* line 107, admin-style.scss */
+.wp-color-picker {
+  width: 100% !important;
+}
+
+/* line 111, admin-style.scss */
+.post-type-spin_game_gh .wp-picker-container {
+  position: relative;
+}
+/* line 113, admin-style.scss */
+.post-type-spin_game_gh .wp-picker-container .wp-color-result {
+  width: 100%;
+  text-align: left;
+  height: 30px;
+  overflow: hidden;
+  margin: 0;
+  border: 1px solid #607d8b;
+  padding-left: 0;
+  padding-right: 40px;
+}
+/* line 122, admin-style.scss */
+.post-type-spin_game_gh .wp-picker-container .wp-color-result .wp-color-result-text {
+  background: #fff;
+  height: 29px;
+  padding: 4px 0 0 5px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+  font-size: 14px;
+  text-align: left;
+}
+/* line 134, admin-style.scss */
+.post-type-spin_game_gh .wp-picker-container.wp-picker-active .wp-picker-input-wrap {
+  position: absolute;
+  left: 0;
+  z-index: 999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 257px;
+  top: 0;
+  background: #fff;
+}
+/* line 142, admin-style.scss */
+.post-type-spin_game_gh .wp-picker-container.wp-picker-active .wp-picker-input-wrap label {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+     -moz-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+/* line 146, admin-style.scss */
+.post-type-spin_game_gh .wp-picker-container .wp-picker-clear {
+  width: 50px !important;
+  height: 30px;
+  margin: 0;
+}
+/* line 151, admin-style.scss */
+.post-type-spin_game_gh .wp-picker-container .wp-picker-holder {
+  position: absolute;
+  left: 0;
+  z-index: 999;
+  top: 0;
+  -webkit-transform: translate(0, -100%);
+     -moz-transform: translate(0, -100%);
+      -ms-transform: translate(0, -100%);
+       -o-transform: translate(0, -100%);
+          transform: translate(0, -100%);
+}
+
+/* line 161, admin-style.scss */
+#spin_items_wrapper .select2-selection, #spin_items_wrapper select {
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  border: 1px solid #607d8b !important;
+  height: 30px;
+}
+
+/* line 168, admin-style.scss */
+.buttons button, #spin_items_wrapper input, #gh-image-edit-popup button {
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  border: 1px solid #607d8b !important;
+  height: 30px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* line 175, admin-style.scss */
+.option_wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/* line 178, admin-style.scss */
+.option_wrapper label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/* line 181, admin-style.scss */
+.option_wrapper label input {
+  width: 100%;
+}
+/* line 186, admin-style.scss */
+.option_wrapper select, .option_wrapper button {
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  border: 1px solid #607d8b !important;
+  height: 30px;
+}
+
+/* line 194, admin-style.scss */
+.gh_posts_list {
+  width: 100%;
+}
+
+/* line 198, admin-style.scss */
+.select2-search__field {
+  border: none !important;
+}
+
+/* line 203, admin-style.scss */
+.postbox input:not([type="checkbox"]), .postbox textarea, .postbox select,
+.postbox .wp-picker-container .wp-color-result.button, #spin_global_gh input:not([type="checkbox"]), #spin_global_gh textarea, #spin_global_gh select,
+#spin_global_gh .wp-picker-container .wp-color-result.button {
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  border: 1px solid #607d8b;
+  height: 30px;
+  margin-bottom: 0;
+}
+/* line 210, admin-style.scss */
+.postbox .select2-selection, #spin_global_gh .select2-selection {
+  border: 1px solid #607d8b;
+}
+/* line 213, admin-style.scss */
+.postbox .select2-search .select2-search__field, #spin_global_gh .select2-search .select2-search__field {
+  height: unset;
+}
+/* line 217, admin-style.scss */
+.postbox table th, #spin_global_gh table th {
+  background-color: #E0E0E0;
+}
+
+/* line 224, admin-style.scss */
+#spin_global_gh input[type="text"], #spin_global_gh select {
+  width: 320px;
+}
+/* line 227, admin-style.scss */
+#spin_global_gh .select2-container .selection {
+  height: 30px;
+}
+
+/* line 232, admin-style.scss */
+.gh_image {
+  position: relative;
+}
+/* line 234, admin-style.scss */
+.gh_image .buttons {
+  position: absolute;
+  left: 15px;
+  top: 25px;
+}
+/* line 239, admin-style.scss */
+.gh_image .image_wrapper {
+  height: 100px;
+  width: 150px;
+  border: 1px solid #607d8b;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  overflow: hidden;
+}
+/* line 245, admin-style.scss */
+.gh_image .image_wrapper img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100px;
+  width: 150px;
+}
+
+/* line 253, admin-style.scss */
+.gh_spinner .image img {
+  cursor: pointer;
+}
+/* line 255, admin-style.scss */
+.gh_spinner .image img:active {
+  cursor: move;
+}
+
+/* line 260, admin-style.scss */
+#spin_items_wrapper .tab_mode {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 263, admin-style.scss */
+#spin_items_wrapper .tab_mode span {
+  margin: 0;
+  font-weight: bold;
+  font-size: 14px;
+}
+/* line 268, admin-style.scss */
+#spin_items_wrapper .tab_mode input {
+  height: 16px;
+  margin: 5px;
+}
+
+/* line 274, admin-style.scss */
+#spin_messages_wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+/* line 277, admin-style.scss */
+#spin_messages_wrapper > div {
+  margin: 10px;
+  width: 46%;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+     -moz-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  min-width: 300px;
+}
+/* line 283, admin-style.scss */
+#spin_messages_wrapper label {
+  font-size: 17px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+/* line 288, admin-style.scss */
+#spin_messages_wrapper textarea {
+  resize: vertical;
+  width: 100%;
+  height: 130px;
+  min-height: 100px;
+}
+
+/* line 296, admin-style.scss */
+#spin_items_wrapper .select2-container {
+  width: 100% !important;
+}
+
+/* line 300, admin-style.scss */
+#gh-image-edit-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 555;
+  background: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 310, admin-style.scss */
+#gh-image-edit-popup .body {
+  width: 50%;
+  min-height: 500px;
+  min-width: 500px;
+  max-width: 700px;
+  margin: auto;
+  background: #fff;
+  position: relative;
+}
+/* line 318, admin-style.scss */
+#gh-image-edit-popup .body .gh_warning {
+  font-weight: bold;
+  text-align: center;
+  color: #F44336;
+  margin: 15px;
+}
+
+/* line 328, admin-style.scss */
+#image-cropper-gh {
+  margin: auto;
+}
+/* line 330, admin-style.scss */
+#image-cropper-gh table {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -o-user-select: none;
+}
+
+/* line 339, admin-style.scss */
+#image-crop-gh-wrapper {
+  -webkit-border-radius: 0 100% 0 0;
+     -moz-border-radius: 0 100% 0 0;
+          border-radius: 0 100% 0 0;
+}
+
+/* line 344, admin-style.scss */
+#image-crop-gh-temp, #image-crop-gh-wrapper {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 351, admin-style.scss */
+#image-crop-gh-temp div, #image-crop-gh-wrapper div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 361, admin-style.scss */
+#image-crop-gh .img {
+  content: "";
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  -moz-background-size: 100%;
+       background-size: 100%;
+  width: 100%;
+  height: 100%;
+  cursor: nwse-resize;
+}
+
+/* line 372, admin-style.scss */
+#image-crop-gh-temp .crop, #image-crop-gh-wrapper .crop {
+  content: "";
+  width: 565.6px;
+  height: 565.6px;
+  background-color: white;
+  top: 29.3%;
+  left: 29.3%;
+  -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+       -o-transform: rotate(45deg);
+          transform: rotate(45deg);
+  z-index: 999;
+}
+
+/* line 383, admin-style.scss */
+#image-crop-gh-wrapper .crop {
+  background-color: #E91E63;
+}
+
+/* line 388, admin-style.scss */
+#image-cropper-gh .sw-range-wrapper {
+  width: 400px;
+  display: block;
+}
+/* line 391, admin-style.scss */
+#image-cropper-gh .sw-range-wrapper .board {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/* line 395, admin-style.scss */
+#image-cropper-gh .sw-range-wrapper input {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+/* line 401, admin-style.scss */
+#image-cropper-gh .sw-rotate-wrapper {
+  -webkit-transform: rotate(-90deg);
+     -moz-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+       -o-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  height: 45px;
+  -webkit-transform-origin: 115px 110px;
+     -moz-transform-origin: 115px 110px;
+      -ms-transform-origin: 115px 110px;
+       -o-transform-origin: 115px 110px;
+          transform-origin: 115px 110px;
+}
+/* line 406, admin-style.scss */
+#image-cropper-gh td {
+  position: relative;
+}
+/* line 409, admin-style.scss */
+#image-cropper-gh td:first-child {
+  width: 45px;
+  max-width: 45px;
+  z-index: 1001;
+}
+/* line 414, admin-style.scss */
+#image-cropper-gh .spin-button-emiter {
+  background: white;
+  position: absolute;
+  width: 155px;
+  height: 78px;
+  -webkit-border-radius: 300px 300px 0 0;
+     -moz-border-radius: 300px 300px 0 0;
+          border-radius: 300px 300px 0 0;
+  bottom: 0;
+  z-index: 1000;
+  left: -78px;
+}
+
+/* line 428, admin-style.scss */
+#gh-image-edit-popup .header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+     -moz-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/* line 432, admin-style.scss */
+#gh-image-edit-popup button {
+  line-height: 1;
+  min-width: 25px;
+  height: 25px;
+  margin: 2.5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+/* line 442, admin-style.scss */
+#gh-image-edit-popup button .dashicons {
+  font-size: 15px;
+  line-height: 1.2;
+}
+/* line 445, admin-style.scss */
+#gh-image-edit-popup button .dashicons.dashicons-image-rotate {
+  font-size: 13px;
+  line-height: 1.5;
+}
+/* line 451, admin-style.scss */
+#gh-image-edit-popup .ok-image {
+  position: absolute;
+  z-index: 999999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+/* line 460, admin-style.scss */
+#gh-image-edit-popup .ok-image img {
+  width: 150px;
+  -webkit-animation-name: ok-rotate;
+     -moz-animation-name: ok-rotate;
+       -o-animation-name: ok-rotate;
+          animation-name: ok-rotate;
+  -webkit-animation-duration: 0.8s;
+     -moz-animation-duration: 0.8s;
+       -o-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+}
+@-webkit-keyframes ok-rotate {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@-moz-keyframes ok-rotate {
+  from {
+    -moz-transform: rotate(0);
+         transform: rotate(0);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+         transform: rotate(360deg);
+  }
+}
+@-o-keyframes ok-rotate {
+  from {
+    -o-transform: rotate(0);
+       transform: rotate(0);
+  }
+  to {
+    -o-transform: rotate(360deg);
+       transform: rotate(360deg);
+  }
+}
+@keyframes ok-rotate {
+  from {
+    -webkit-transform: rotate(0);
+       -moz-transform: rotate(0);
+         -o-transform: rotate(0);
+            transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+/* line 477, admin-style.scss */
+button .dashicons-image-rotate {
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+/* line 483, admin-style.scss */
+.sw-generate .dashicons.animate:before {
+  -webkit-animation-name: dashicon-animate;
+     -moz-animation-name: dashicon-animate;
+       -o-animation-name: dashicon-animate;
+          animation-name: dashicon-animate;
+  -webkit-animation-duration: 0.8s;
+     -moz-animation-duration: 0.8s;
+       -o-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform-origin: center;
+     -moz-transform-origin: center;
+      -ms-transform-origin: center;
+       -o-transform-origin: center;
+          transform-origin: center;
+  display: inline-block;
+}
+
+@-webkit-keyframes dashicon-animate {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes dashicon-animate {
+  from {
+    -moz-transform: rotate(0);
+         transform: rotate(0);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+         transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes dashicon-animate {
+  from {
+    -o-transform: rotate(0);
+       transform: rotate(0);
+  }
+  to {
+    -o-transform: rotate(360deg);
+       transform: rotate(360deg);
+  }
+}
+
+@keyframes dashicon-animate {
+  from {
+    -webkit-transform: rotate(0);
+       -moz-transform: rotate(0);
+         -o-transform: rotate(0);
+            transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+/* line 501, admin-style.scss */
+#spin_game_result .wp-editor-wrap,
+#gh_email_section .wp-editor-wrap,
+#gh_welcome_section .wp-editor-wrap {
+  margin-top: -25px;
+}
+
+/* line 507, admin-style.scss */
+.flexBox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+/* line 516, admin-style.scss */
+#spin_messages_wrapper > div > .item,
+#gh_welcome_section > div > .item {
+  /*min-width: 250px;*/
+  margin: 15px;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+     -moz-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+/* line 521, admin-style.scss */
+#spin_messages_wrapper > div > .item-full,
+#gh_welcome_section > div > .item-full {
+  width: 100%;
+}
+/* line 524, admin-style.scss */
+#spin_messages_wrapper > div > .item-x2,
+#gh_welcome_section > div > .item-x2 {
+  -webkit-box-flex: 2;
+  -webkit-flex-grow: 2;
+     -moz-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
+
+/* line 529, admin-style.scss */
+#spin_game_ui_opt h2 {
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 0;
+}
+
+/* line 535, admin-style.scss */
+#result_bg_image,
+#form_bg_image {
+  position: relative;
+}
+/* line 539, admin-style.scss */
+#result_bg_image input,
+#form_bg_image input {
+  width: -webkit-calc(100% - 74px);
+  width: -moz-calc(100% - 74px);
+  width: calc(100% - 74px);
+  margin: 0;
+  margin-right: 74px;
+}
+/* line 544, admin-style.scss */
+#result_bg_image .buttons,
+#form_bg_image .buttons {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/* line 551, admin-style.scss */
+.spin_image_move_gh {
+  position: absolute;
+  z-index: 99999;
+  cursor: pointer;
+  -webkit-animation-name: move-gh;
+     -moz-animation-name: move-gh;
+       -o-animation-name: move-gh;
+          animation-name: move-gh;
+  -webkit-animation-duration: .8s;
+     -moz-animation-duration: .8s;
+       -o-animation-duration: .8s;
+          animation-duration: .8s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+     -moz-animation-direction: alternate;
+       -o-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: ease;
+     -moz-animation-timing-function: ease;
+       -o-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+@-webkit-keyframes move-gh {
+  from {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  to {
+    -webkit-transform: translate(-25%, 25%);
+            transform: translate(-25%, 25%);
+  }
+}
+
+@-moz-keyframes move-gh {
+  from {
+    -moz-transform: translate(0);
+         transform: translate(0);
+  }
+  to {
+    -moz-transform: translate(-25%, 25%);
+         transform: translate(-25%, 25%);
+  }
+}
+
+@-o-keyframes move-gh {
+  from {
+    -o-transform: translate(0);
+       transform: translate(0);
+  }
+  to {
+    -o-transform: translate(-25%, 25%);
+       transform: translate(-25%, 25%);
+  }
+}
+
+@keyframes move-gh {
+  from {
+    -webkit-transform: translate(0);
+       -moz-transform: translate(0);
+         -o-transform: translate(0);
+            transform: translate(0);
+  }
+  to {
+    -webkit-transform: translate(-25%, 25%);
+       -moz-transform: translate(-25%, 25%);
+         -o-transform: translate(-25%, 25%);
+            transform: translate(-25%, 25%);
+  }
+}
+/* line 578, admin-style.scss */
+.bulk_action h3 {
+  font-size: 15px;
+  margin: 0;
+}
+/* line 582, admin-style.scss */
+.bulk_action select {
+  width: 100%;
+}
+
+/* line 588, admin-style.scss */
+#spin_history_form #id, #spin_history_form #claimed {
+  width: 55px;
+}
+/* line 591, admin-style.scss */
+#spin_history_form #spin_count {
+  width: 110px;
+}
+/* line 594, admin-style.scss */
+#spin_history_form #spin_id {
+  width: 100px;
+}
+/* line 597, admin-style.scss */
+#spin_history_form .green {
+  color: #4CAF50;
+}
+/* line 600, admin-style.scss */
+#spin_history_form .red {
+  color: #F44336;
+}
+/* line 603, admin-style.scss */
+#spin_history_form .yes {
+  color: #4CAF50;
+  font-size: 16px;
+}
+/* line 607, admin-style.scss */
+#spin_history_form .no {
+  color: #F44336;
+  font-size: 16px;
+}
+
+/* line 613, admin-style.scss */
+.wp-picker-container {
+  position: relative;
+}
+/* line 615, admin-style.scss */
+.wp-picker-container.readonly:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: rgba(238, 238, 239, 0.5);
+  display: inline-block;
+  position: absolute;
+}
+
+/* line 628, admin-style.scss */
+#gh_audio_section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+/* line 631, admin-style.scss */
+#gh_audio_section > label {
+  width: 100%;
+  padding: 10px 5px;
+}
+/* line 635, admin-style.scss */
+#gh_audio_section .item {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 50%;
+  min-width: 377px;
+  padding: 5px;
+}
+/* line 641, admin-style.scss */
+#gh_audio_section .item .wp-audio-shortcode {
+  width: 334px !important;
+}
+/* line 643, admin-style.scss */
+#gh_audio_section .item .wp-audio-shortcode:focus {
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+/* line 649, admin-style.scss */
+#gh_audio_section .item .audio_wrapper {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #222;
+}
+/* line 654, admin-style.scss */
+#gh_audio_section .item .buttons {
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+  margin: 0 5px;
+}
+
+/* line 662, admin-style.scss */
+.postbox .hndle {
+  cursor: pointer !important;
+}

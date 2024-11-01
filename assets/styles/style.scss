@@ -1,0 +1,398 @@
+[id^="spin_game_gh_"] {
+  position: relative;
+  overflow: hidden;
+  padding-top: 15px;
+  font-family: 'Roboto', sans-serif;
+
+  .center {
+    text-align: center;
+    width: 100%;
+  }
+  input[type="button"] {
+    cursor: pointer;
+  }
+  .spin_result {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    opacity: 1;
+    z-index: 999;
+    transform: translate(0, 0);
+    transition: transform 0.5s;
+    overflow-y: auto;
+    overflow-x: hidden;
+    &.leave {
+      opacity: 0;
+      transform: translate(0, -110%);
+    }
+  }
+  .gh_spin_form {
+    h2 {
+      color: white;
+      font-size: 17px;
+      text-shadow: 2px 2px 2px black;
+      margin-top: 2em;
+    }
+    label {
+      line-height: 1.5;
+      input {
+        width: 90%;
+        margin: 1%;
+        height: 30px;
+        padding: 5px;
+        text-align: center;
+        border-radius: 5px;
+        background: rgba(255, 255, 255, 0.9);
+        border: 1px solid transparent;
+        transition: all 0.5s;
+        &.error {
+          border-color: #f44336;
+        }
+      }
+    }
+  }
+  .spin_overlay .buttons{
+    display: flex;
+  }
+  .spin_overlay input[type=button] {
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 22px;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5) inset;
+    line-height: 1em;
+    transition: opacity 0.3s;
+    margin: 20px 10px;
+    padding: 14px 35px;
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+  .gh_spin_form form {
+    max-width: 400px;
+    margin: auto;
+  }
+  .spin_overlay {
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+  }
+  .gh_spin_form {
+    box-shadow: 3px 0 10px 0 #3a3a3a;
+    padding: 10px;
+    height: 100%;
+    width: 65%;
+    max-width: 800px;
+    min-width: 300px;
+    animation-duration: 0.8s;
+    transform: translate(0);
+    animation-name: el-show;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &.leave {
+      transform: translate(-105%);
+      animation-name: el-hide;
+    }
+    label {
+      position: relative;
+      display: block;
+      margin-top: 25px;
+    }
+    .placeholder {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      transition: all .5s;
+      pointer-events: none;
+    }
+    input {
+      &:focus + .placeholder, &:not(:placeholder-shown) + .placeholder {
+        transform: translate(-50%, -150%) scale(0.9);
+        color: #fff;
+        text-shadow: 1px 1px 1px black;
+      }
+    }
+    .welcome_message {
+      margin-bottom: 20px;
+      > * {
+        color: #fff;
+        text-shadow: 0 1px 1px #fff;
+        margin-bottom: 0;
+      }
+    }
+  }
+  .spin_overlay {
+    .bg, .bg_image {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+  .gh_spin_form .error_message {
+    width: 100%;
+    position: absolute;
+    color: #F44336;
+    left: 0;
+    text-align: center;
+    bottom: -16px;
+    font-size: 14px;
+  }
+  .spin_result {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .image_wrapper {
+      position: relative;
+      img {
+        object-fit: contain;
+        height: 150px;
+        min-height: 150px;
+        max-height: 150px;
+        width: 150px;
+        min-width: 150px;
+        max-width: 150px;
+        overflow: hidden;
+        border-radius: 50%;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        background-color: #fff;
+      }
+      .success {
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: 2;
+        transform: rotate(360deg);
+        transition: all 0.8s;
+      }
+      .success.leave {
+        opacity: 0;
+        transform: rotate(0);
+      }
+    }
+    .message_area {
+      margin-top: 15px;
+      padding: 15px 20px 15px;
+      overflow-y: auto;
+      color: #fff;
+      text-shadow: 2px 2px 2px black;
+      margin-right: -5px;
+      a {
+        color: #fff;
+        border-bottom: 1px dashed #fff;
+      }
+    }
+  }
+}
+
+@keyframes el-show {
+  from {
+    transform: translate(-105%);
+  }
+
+  to {
+    transform: translate(0);
+  }
+}
+
+@keyframes el-hide {
+  from {
+    transform: translate(0);
+  }
+
+  to {
+    transform: translate(-105%);
+  }
+}
+
+#spin_global_popup {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 99999;
+  [id^="spin_game_gh_"] {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:not(.template_2) .spinwheel {
+      animation-name: whell-show;
+      animation-duration: 0.8s;
+      animation-delay: 0.8s;
+      transform: translate(-110%);
+      animation-fill-mode: both;
+    }
+  }
+  #spin_close_global {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    cursor: pointer;
+    z-index: 99999;
+    transition: all 0.5s;
+    &:hover {
+      transform: rotate(-180deg);
+    }
+  }
+}
+
+@keyframes whell-show {
+  from {
+    transform: translate(-110%);
+  }
+
+  to {
+    transform: translate(0);
+  }
+}
+
+#spin_open_global {
+  position: fixed;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  .open {
+    cursor: pointer;
+  }
+  .text {
+    display: inline-flex;
+    background: #fff;
+    color: #444;
+    border: 1px solid #9E9E9E;
+    box-shadow: -1px 1px 6px #9E9E9E;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 15px;
+    line-height: 0;
+    margin: 0 5px;
+    animation-name: open-spin-text-right;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    position: relative;
+    &:after, &:before {
+      content: '';
+      display: inline-block;
+      border: 9px solid transparent;
+      border-left-color: #9E9E9E;
+      right: -18px;
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
+    }
+    &:before {
+      right: -17px;
+      border-left-color: #fff;
+      z-index: 1;
+    }
+  }
+
+  &.left {
+    left: 15px;
+    .text {
+      order: 2;
+      animation-name: open-spin-text-left;
+      &:after, &:before {
+        border-left-color: transparent;
+        border-right-color: #9E9E9E;
+        right: unset;
+        left: -18px;
+      }
+      &:before {
+        right: unset;
+        left: -17px;
+        border-left-color: transparent;
+        border-right-color: #fff;
+      }
+    }
+    .open {
+      order: 1;
+      .spin_border {
+        left: 0;
+        right: unset;
+      }
+    }
+  }
+  &.right {
+    right: 15px;
+
+  }
+  &.bottom {
+    bottom: 20px;
+  }
+  &.top {
+    top: 20px;
+  }
+
+  .spin_border {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .spin {
+    animation-name: open-spin-rotate;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    padding: 1px;
+  }
+  @media screen and (max-width: 768px) {
+    .text {
+      font-size: 16px;
+    }
+    .open {
+      img {
+        width: 90px;
+        height: 90px;
+      }
+    }
+  }
+}
+
+@keyframes open-spin-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes open-spin-text-right {
+  from {
+    right: 0;
+  }
+
+  to {
+    right: 25px;
+  }
+}
+
+@keyframes open-spin-text-left {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 25px;
+  }
+}
